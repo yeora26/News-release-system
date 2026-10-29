@@ -23,8 +23,8 @@ public class SMSUtils {
                                    String templateCode,String phoneNumbers,String param){
         DefaultProfile profile = DefaultProfile
                 .getProfile("cn-hangzhou",
-                        "LTAI5tMghRDpNrKUjvnjneFu",
-                        "cf9MWCQp2MlyJceBcuYRNjbuSfKboB");
+                        "xxx",
+                        "xxx");
         IAcsClient client = new DefaultAcsClient(profile);
 
         SendSmsRequest request = new SendSmsRequest();
